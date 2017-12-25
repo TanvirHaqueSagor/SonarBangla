@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+     >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/registration_text"
+        android:textColor="@android:color/holo_orange_dark"
+        android:gravity="center_horizontal"
+        android:paddingBottom="20dp"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <EditText
+        android:id="@+id/etPhoneRegistration"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/registration_phone"
+        android:ems="10" >
+ 
+    </EditText>
+
+    <EditText
+        android:id="@+id/etPasswordRegistration"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/registration_password"
+        android:inputType="textPassword" />
+
+    <EditText
+        android:id="@+id/etConfirmPasswordRegistration"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/registration_confirm_password"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/registrationButton"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+       android:layout_marginTop="30dp"
+        android:background="@drawable/call_button_selector"
+        android:text="@string/registration_button" />
+
+</LinearLayout>
